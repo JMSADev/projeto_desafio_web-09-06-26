@@ -22,8 +22,8 @@ h2 {
 
 label{
     display: block;
+    margin-right: 500px;
     padding: 10px 0px;
-    margin: right 500px;
 }
 
 input{

@@ -1,7 +1,7 @@
 const formPessoa = document.querySelector
 ("#formulario-pessoa")
 const divDados = document.querySelector
-("#adiv-dados")
+("#div-dados")
 
 formPessoa.addEventListener('submit' , (evt) => {
     evt.preventDefault()
@@ -11,10 +11,9 @@ formPessoa.addEventListener('submit' , (evt) => {
     const nome = dadosForm.get('nome')
     const idade = dadosForm.get('idade')
 
-    let situacaoIdade = idade >= 18 ? `$(nome), é maior de
-     idade` : `$(nome), é Menor de idade`
+    let situacaoIdade = idade >= 18 ? `${nome} é maior de idade` : `${nome} é menor de idade`
 
-    divDados.innerHTML - situacaoIdade
+    divDados.innerHTML = situacaoIdade
 
 
 })

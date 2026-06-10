@@ -1,9 +1,9 @@
 const formPessoa = document.querySelector
 ("#formulario-pessoa")
 const divDados = document.querySelector
-("adiv-dados")
+("#adiv-dados")
 
-formPessoa.addEventListener('submit',(evt)=>{
+formPessoa.addEventListener('submit' , (evt) => {
     evt.preventDefault()
 
     const dadosForm = new FormData(formPessoa)

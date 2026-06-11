@@ -35,3 +35,12 @@ console.log (num2)
 num3 = 902
 
 console.log (num3)
+
+console.log ('Valor da variável num3 é' + num3)
+console.log ("Valor da variável num3 é" + num3)
+console.log (`valor da variavel num3 é  ${num3}`)
+
+console.log('A soma dos números é: ', 12 + 8)
+console.log('A subtração entre variáveis: ', num3 - num3)
+console.log('A multiplicação dos números: ', num3 / num2)
+console.log(`O resto da divisão entre 10 e 2 é: ${10 % 2}`)

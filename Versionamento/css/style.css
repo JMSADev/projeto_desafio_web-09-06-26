@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    }
+    
+    h1 {
+    color: navy;
+    }
+
+    h2 {
+        color: green;
+        }
+    
+    #div-form{
+        width: 400;
+        height:500;
+        background-color: rgba(128, 117, 80, 0.899);
+        margin: 20px auto;
+        padding: 40;
+    }
+
+    label{
+        display: block;
+        margin-right: 500px;
+        padding: 10px 0px;
+        
+    }
+
+    input{
+        display: block;
+        margin: 10px 0px
+        
+    }
+
+    #div-dados{
+        width: 100%;
+        height: 80px;
+        margin: 50px 0px;
+        background-color: #ffffff;
+    }

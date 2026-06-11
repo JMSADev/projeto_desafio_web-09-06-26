@@ -44,3 +44,23 @@ console.log('A soma dos números é: ', 12 + 8)
 console.log('A subtração entre variáveis: ', num3 - num3)
 console.log('A multiplicação dos números: ', num3 / num2)
 console.log(`O resto da divisão entre 10 e 2 é: ${10 % 2}`)
+
+let idade = 50
+
+if(idade >= 18){
+    console.log("Maior de idade")
+}else{
+    console.log("Menor de idade")
+}
+
+idade >= 18 ? console. log("Maior de idade") : console.log("Menor de idade")
+
+if(idade <18){
+    console.log(`COM ${idade}, NÃO É PERMITIDO POUSSIR CNH ` )
+}else if(idade < 50){
+    console.log(`COM ${idade}, O TEMPO PARA RENOVAÇÃO É DE 10 ANOS ` )
+}else if(idade < 70){
+    console.log(`COM ${idade}, O TEMPO PARA RENOVAÇÃO É DE 5 ANOS ` )
+}else{
+    console.log(`COM ${idade}, O TEMPO PARA RENOVAÇÃO É 3 ANOS ` )
+}

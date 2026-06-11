@@ -64,3 +64,11 @@ if(idade <18){
 }else{
     console.log(`COM ${idade}, O TEMPO PARA RENOVAÇÃO É 3 ANOS ` )
 }
+
+let valor = 1500
+
+if (idade >= 18 && valor >= 1000){
+    console.log("AUTORIZADO O ACESSO")
+}else{
+    console.log("ACESSO NEGADO")
+}
